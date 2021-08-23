@@ -22,7 +22,7 @@ export default function App() {
 
   const [request, result, promptAsync] = AuthSession.useAuthRequest(
     {
-      redirectUri,
+      redirectUri, 
       clientId: auth0ClientId,
       // id_token will return a JWT token
       responseType: 'id_token',
